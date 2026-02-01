@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:practice_project_4_validationchk/alertDialouge.dart';
+import 'package:practice_project_4_validationchk/assignments.dart';
 import 'package:practice_project_4_validationchk/home.dart';
 class MyAPP extends StatelessWidget {
   const MyAPP({super.key});
@@ -15,7 +16,7 @@ class MyAPP extends StatelessWidget {
 
           child: MaterialApp(
             title: "Jack",
-            home: Alert(),
+            home: CourseCardsScreen(),
           ),
         );
   }
